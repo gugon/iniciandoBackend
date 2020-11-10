@@ -20,12 +20,15 @@
     "prettier"
   ],
   "rules": {
+    "no-underscore-dangle": "off",
     "prettier/prettier": "error",
     "no-useless-constructor": "off",
     "no-unused-vars": "off",
     "camelcase": "off",
-  "@typescript-eslint/no-unused-vars": [
-    "warn",
+    "@typescript-eslint/camecase": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      "error",
     {
       "argsIgnorePattern": "^_"
     }
